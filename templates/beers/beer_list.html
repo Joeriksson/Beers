@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+
+{% block content %}
+    {% for beer in beers %}
+        <strong>Name:</strong> {{ beer.name }}<br>
+        <strong>First brewed:</strong> {{ beer.first_brewed }}<br>
+        <strong>Tagline:</strong> {{ beer.tagline }}<br>
+        <strong>Description:</strong> {{ beer.description }}<br>
+        <hr>
+    {% empty %}
+        No beers found!
+    {% endfor %}
+{% endblock content %}
