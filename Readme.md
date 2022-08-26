@@ -10,7 +10,7 @@ A simple Django app to demonstrate how to create a custom django-admin command. 
 
 2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop) to be able to use the docker environment.
 
-3. Create an .env file in the root folder with the the following parameters:
+3. Create an .env file in the root folder with the the following parameters (You can put anything after the Sendgrid parameters as they are not used in this project):
 
     ```ENVIRONMENT='development'
     SENDGRID_PASSWORD=<you sendgrid password>
