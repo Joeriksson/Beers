@@ -12,7 +12,8 @@ A simple Django app to demonstrate how to create a custom django-admin command. 
 
 3. Create an .env file in the root folder with the the following parameters (You can put anything after the Sendgrid parameters as they are not used in this project):
 
-    ```ENVIRONMENT='development'
+    ```
+    ENVIRONMENT='development'
     SENDGRID_PASSWORD=<you sendgrid password>
     SENDGRID_USERNAME=<your sendgrid username>
     SECRET_KEY=<your secret key>
